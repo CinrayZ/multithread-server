@@ -1,0 +1,21 @@
+[DEBUG] Request-Id: reqid_val = 0, has_reqid = 0
+[DEBUG] Parsing done:
+	- Method: GET
+	- uri: /small.txt
+	- Version: HTTP/1.1
+	- id_header_value: 0
+	- has_id: 0
+[DEBUG] Audit_log: GET,/small.txt,404,0
+
+[DEBUG] Response: HTTP/1.1 404 Not Found
+	Content-Length: 10
+	Connection: close
+	
+	<body>
+[DEBUG] Audit_log: ,,400,1
+
+[DEBUG] Response: HTTP/1.1 400 Bad Request
+	Content-Length: 12
+	Connection: close
+	
+	<body>
